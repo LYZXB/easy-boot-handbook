@@ -1,0 +1,42 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.handbook</groupId>
+    <artifactId>easy-boot-handbook</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>easy-boot-handbook</name>
+    <dependencies>
+
+    </dependencies>
+
+    <!--  父模块必须为pom类型  -->
+    <packaging>pom</packaging>
+
+    <!--  聚合所有子模块  -->
+    <modules>
+        <module>module-01-web-helloworld</module>
+        <module>module-01-web-helloworld</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring-boot.version>3.5.6</spring-boot.version>
+    </properties>
+
+    <!--  统一管理子模块依赖版本  -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- 统一所有子模块的springboot版本号-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

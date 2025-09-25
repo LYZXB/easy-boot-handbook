@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="moduleMapping">
+      <map>
+        <entry key="module-01-web-helloworld" value="moudle-01-web-helloworld" />
+        <entry key="xxxmoudle-01-web-helloworld" value="moudle-01-web-helloworld" />
+      </map>
+    </option>
+  </component>
+</project>
