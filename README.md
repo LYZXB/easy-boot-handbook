@@ -39,7 +39,7 @@
 | 模块名称                                                            | 状态  | 核心知识点与教学目标                                                                                       |
 | :-------------------------------------------------------------- | :-: | :----------------------------------------------------------------------------------------------- |
 | [`module-01-web-helloworld`](./module-01-web-helloworld/)    | ✅  | **知识点:** Spring Boot基础, `@RestController`, `@GetMapping`。<br>**目标:** 跑起第一个Web服务，理解HTTP请求到响应的全过程。 |
-| [`module-02-configuration-management`](./module-02-configuration-management/) | 🚧  | **知识点:** `application.yml`, `@Value`, 自定义配置。<br>**目标:** 学会管理项目配置，实现代码与配置的分离。                     |
+| [`module-02-configuration-management`](./module-02-configuration-management/) | ✅  | **知识点:** `application.yml`, `@Value`, 自定义配置。<br>**目标:** 学会管理项目配置，实现代码与配置的分离。                     |
 | [`module-03-database-crud`](./module-03-database-crud/)                       | 🚧  | **知识点:** MyBatis-Plus, MySQL, Druid, RESTful API。<br>**目标:** 掌握使用MyBatis-Plus优雅地实现单表的增、删、改、查。    |
 | [`module-04-api-documentation`](./module-04-api-documentation/)               | 🚧  | **知识点:** Knife4j (SpringDoc)。<br>**目标:** 学会为项目自动生成美观、可交互的在线API文档。                                |
 

@@ -1,0 +1,5 @@
+server:
+  port: 8090
+
+greeting:
+  message: this is greeting message
