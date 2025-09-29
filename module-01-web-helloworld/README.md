@@ -38,9 +38,9 @@
    ![01-项目访问成功截图.png](../img/01-项目访问成功截图.png)
 ### ❓常见问题
 
-Q：为什么我执行`mvn spring-boot`命令后，控制台显示：`mvn` 不是内部或外部命令，也不是可运的程序或批处理文件？
+Q：为什么我执行`mvn spring-boot`命令后，控制台显示：`mvn` 不是内部或外部命令，也不是可运的程序或批处理文件？<br>
 A： 首先确认maven是否安装，是否正确加入环境变量。
 
-Q：为什么我执行`mvn spring-boot`命令后，控制台显示：BUILD FAILURE ？具体如下：
+Q：为什么我执行`mvn spring-boot`命令后，控制台显示：BUILD FAILURE ？具体如下：<br>
 ![01-spring-boot插件未找到.png](../img/01-spring-boot插件未找到.png)
 A：查看控制台当前地址是否项目主目录（原因是项目没有找到`spring-boot`插件，但是项目中存在此插件。）
