@@ -16,7 +16,7 @@
     <!--  聚合所有子模块  -->
     <modules>
         <module>module-01-web-helloworld</module>
-        <module>module-01-web-helloworld</module>
+        <module>module-02-configuration-management</module>
     </modules>
 
     <properties>
